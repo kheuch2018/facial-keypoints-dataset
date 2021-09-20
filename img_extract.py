@@ -21,7 +21,7 @@ if __name__=='__main__':
     try:
         os.mkdir(os.getcwd()+'/imgs')
     except:
-        print 'X'
+        print ('X')
 
     print('there are '+str(len(data.Image))+' images in total\nstart extracting......')
     for i in range(1,len(data.Image)+1):
